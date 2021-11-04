@@ -1,18 +1,31 @@
+h1 {
+background-color: #7f9dff;
+border: solid black;
+margin-left: 40px;
+width: 80%;
+position: sticky;
+}
+
 .box1 {
-display: block 
+display: block;
+margin-left: 200px;
+width: 50%;
+background-color: red;
+text-align: center;
 }
 .box2 {
-  display: none
+  display: none;
+  background-color: blue;
 }
 .box3 {
-  display: none
+  display: none;
 }
 .box4 {
-  display: none 
+  display: none; 
 }
 .box5 {
-  display: none
+  display: none;
 }
 .box6 {
-  display: none
+  display: none;
 }
