@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Survey</title>
+</head>
+<body>
+  <h1>Let us find out which language would work best for you. Please answer the questions below to find out!</h1>
+  <div class ="container">
+
+    <div class ="box1">
+      <h2>What is your favorite outing?</h2>
+      <select class="form-control" id="question1">
+        <option value="1">hiking</option>
+        <option value="2">swimming</option>
+        <option value="3">sleeping</option>
+      </select>
+
+    <div class="box2">
+      <h2>what is your favorite food</h2>
+      <select class="form-control" id="question2">
+        <option value="1">pizza</option>
+        <option value="2">coffee</option>
+        <option value="3">french fries</option>
+      </select>
+    </div>
+
+    <div class="box3">
+      <h2>what is your favorite cartoon character?</h2>
+      <select class="form-control" id="question3">
+        <option value="1">bugs bunny</option>
+        <option value="2">spongebob</option>
+        <option value="3">mickey mouse</option>
+      </select>
+    </div>
+
+    <div class="box4">
+      <h2>How old are you?</h2>
+      <div class="radio">
+        <label>
+          <input type="radio" name="age" value="young" checked>
+          Less than 18 yrs 
+        </label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="middle">
+            18-50 yrs
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="old">
+            50+ yrs
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="box5">
+      <h2>what is your favorite color</h2>
+      <select class="form-control" id="question5">
+        <option value="1">red</option>
+        <option value="2">green</option>
+        <option value="3">blue</option>
+      </select>
+    </div>
+
+    <div class="box6">
+      <h2>Results</h2>
+        <p> Your results show that you would like "#"</p>
+    </div>
+    
+  </div>
+</body>
+</html>
