@@ -1,21 +1,25 @@
-const question1 = $("#question1").val();
-const question2=$("#question2").val(); 
-const question3=$("#question3").val();
-const age = $("input:radio[name=age]:checked").val(); 
-const question5=$("#question5").val(); 
+$(document).ready(function() {
+  $("form#form_survey").submit (function(event) {
+      event.preventDefault();
+      const number1 = parseInt($("#question1").val());
+      const number2 = parseInt($("#question2").val()); 
+      const number3 = parseInt($("#question3").val());
+      const number4 = parseInt($("#question4").val()); 
+      const number5 = parseInt($("#question5").val()); 
+    
+      const result = (number1 + number2 + number3 + number4 +number5);
+      // $('#results')text(result);
 
-const question1 =document.querySelector ("box1");
-const question2 =document.querySelector ("box2");
-const question3 =document.querySelector ("box3");
-const question4 =document.querySelector ("box4");
-const question5=document.querySelector ("box5");
 
-const container=document.querySelector("container"); 
-const box6 =document.querySelector ("box6"); 
-
-//first question 
-//first whole display none
-box1.addEventListener("click", function() {
-  question1.style.display="none";
-  question2.style.display="block";
-}); 
+  if (result <=6) {
+      $('#results').hide();
+      $('#results1').show();
+    } else if (result >=6 && result <= 10) {
+      $('#results').hide();
+      $('#results2').show();
+    } else { 
+      $('#results').hide();
+      $('#results3').show();
+    }
+  }); 
+});

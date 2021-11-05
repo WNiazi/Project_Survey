@@ -7,75 +7,75 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
+
+
   <title>Survey</title>
 </head>
 <body>
-  <h1>Let us find out which language would work best for you. Please answer the questions below to find out!</h1>
-  <div class ="container">
-
-    <div class ="box1">
-      <h2>What is your favorite outing?</h2>
-      <select class="form-control" id="question1">
-        <option value="1">Hiking</option>
-        <option value="2">Swimming</option>
-        <option value="3">Sleeping</option>
-      </select>
-
-    <div class="box2">
-      <h2>What is your favorite food?</h2>
-      <select class="form-control" id="question2">
-        <option value="1">Pizza</option>
-        <option value="2">Coffee</option>
-        <option value="3">French Fries</option>
-      </select>
-    </div>
-
-    <div class="box3">
-      <h2>What is your favorite cartoon character?</h2>
-      <select class="form-control" id="question3">
-        <option value="1">Bugs Bunny</option>
-        <option value="2">Spongebob</option>
-        <option value="3">Mickey Mouse</option>
-      </select>
-    </div>
-
-    <div class="box4">
-      <h2>How old are you?</h2>
-      <div class="radio">
-        <label>
-          <input type="radio" name="age" value="young" checked>
-          Less than 18 yrs 
-        </label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="age" value="middle">
-            18-50 yrs
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="age" value="old">
-            50+ yrs
-          </label>
-        </div>
+  <h1>Computer Lanuage Survey </h1>
+    <h2 >Which one would be the best for you?</h2>
+  <div class ="container"> 
+    <form id ="form_survey">
+      <div class ="box">
+        <h3>What is your favorite outing?</h3>
+        <select class="form-control" id="question1">
+          <option value="1">Hiking</option>
+          <option value="2">Swimming</option>
+          <option value="3">Sleeping</option>
+        </select>
       </div>
-    </div>
 
-    <div class="box5">
-      <h2>what is your favorite color</h2>
-      <select class="form-control" id="question5">
-        <option value="1">Red</option>
-        <option value="2">Green</option>
-        <option value="3">Blue</option>
-      </select>
-    </div>
+      <div class="box2">
+        <h3>What is your favorite food?</h3>
+        <select class="form-control" id="question2">
+          <option value="1">Pizza</option>
+          <option value="2">Coffee</option>
+          <option value="3">French Fries</option>
+        </select>
+      </div>
 
-    <div class="box6">
-      <h2>Results</h2>
-        <p> Your results show that you would like "#"</p>
-    </div>
+      <div class="box3">
+        <h3>What is your favorite cartoon character?</h3>
+        <select class="form-control" id="question3">
+          <option value="1">Bugs Bunny</option>
+          <option value="2">Spongebob</option>
+          <option value="3">Mickey Mouse</option>
+        </select>
+      </div>
 
+      <div class="box4">
+        <h3>How old are you?</h3>
+        <select class="form-control" id="question4">
+          <option value="1">younger than 18yr</option>
+          <option value="2">18-50yrs</option>
+          <option value="3">50+yrs </option>
+        </select>
+      </div>
+
+      <div class="box5">
+        <h3>what is your favorite color</h3>
+        <select class="form-control" id="question5">
+          <option value="1">Red</option>
+          <option value="2">Green</option>
+          <option value="3">Blue</option>
+        </select>
+      </div>
+
+      <button type ="submit" class="btn" id="submit"> Submit</button> 
+    </form>
+    
+      <div class="results">
+        <h3>Results</h3>
+          <div id ="results1">
+            <p>Your results show that you would be great at Javascript.</p>
+          </div>
+          <div id= "results2">
+            <p>Your results show that you would be great at C#. </p>
+          </div>
+          <div id = "results3">
+            <p> Your results show that you would be great in HTML.</p>
+          </div>
+      </div>   
   </div>
-  <script src="script.js"></script>
 </body>
-</html>""
+</html>

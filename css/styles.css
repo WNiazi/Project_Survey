@@ -8,11 +8,16 @@ position: sticky;
 
 .box1 {
 display: block;
-margin-left: 200px;
+margin-left: 300px;
 width: 50%;
 background-color: red;
 text-align: center;
 }
+.results {
+  display: none
+}
+
+/* 
 .box2 {
   display: none;
   background-color: blue;
@@ -28,4 +33,4 @@ text-align: center;
 }
 .box6 {
   display: none;
-}
+}  */ 
