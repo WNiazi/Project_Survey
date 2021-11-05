@@ -16,7 +16,7 @@
 
 __Creating a reactive form filled document and using if/else if in JavaScript/CSS/HTML/jQuery to create a survey for various computer lanuages one might be interested in. 
 
-__Please view g**** to view project.  
+__Please go to https://github.com/WNiazi/Project_Survey.git to view project.  
 
 ## Setup/Installation Requirements
 

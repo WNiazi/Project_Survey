@@ -8,14 +8,20 @@ $(document).ready(function() {
       const number5 = parseInt($("#question5").val()); 
     
       const result = (number1 + number2 + number3 + number4 +number5);
-      
    
-  if (result <=6) {
-      $('#Ruby').show();
-    } else if (result >=6 && result <= 10) {
-      $('#C#').show();
-    } else {
-      $('#JavaScript').show();
-    }
-  }); 
-});
+          if (result <=6) {
+              let totalVal="Ruby";
+              $("#language").text(totalVal);
+            } else if (result >=6 && result <= 11) {
+              let totalVal="C#"; 
+              console.log ("is this working")
+              $("#language").text(totalVal);
+            } else {
+              let totalVal="JavaScripts";
+              $("#language").text(totalVal);
+            }
+
+            $("#results").show(); 
+          });
+        });      
+
