@@ -8,18 +8,14 @@ $(document).ready(function() {
       const number5 = parseInt($("#question5").val()); 
     
       const result = (number1 + number2 + number3 + number4 +number5);
-      // $('#results')text(result);
-
-
+      
+   
   if (result <=6) {
-      $('#results').hide();
-      $('#results1').show();
+      $('#Ruby').show();
     } else if (result >=6 && result <= 10) {
-      $('#results').hide();
-      $('#results2').show();
-    } else { 
-      $('#results').hide();
-      $('#results3').show();
+      $('#C#').show();
+    } else {
+      $('#JavaScript').show();
     }
   }); 
 });

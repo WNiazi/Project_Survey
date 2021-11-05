@@ -6,15 +6,9 @@ width: 80%;
 position: sticky;
 }
 
-.box1 {
-display: block;
-margin-left: 300px;
-width: 50%;
-background-color: red;
-text-align: center;
-}
-.results {
-  display: none
+#results { 
+  background-color: greenyellow;
+  display: none; 
 }
 
 /* 
