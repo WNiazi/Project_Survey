@@ -1,30 +1,22 @@
 h1 {
-background-color: #7f9dff;
+background-color: #c1ccf0;
 border: solid black;
-margin-left: 40px;
-width: 80%;
+width: 100%;
+text-align: center;
 position: sticky;
 }
-
+h2{
+  text-align: center;
+}
+body{ 
+text-align: center;
+background-color: #f1f2f5;
+}
 #results { 
-  background-color: greenyellow; 
+  background-color: #f1f2f5; 
   display: none;
 }
+.btn { 
+  margin-top: 2em;
 
-/* 
-.box2 {
-  display: none;
-  background-color: blue;
 }
-.box3 {
-  display: none;
-}
-.box4 {
-  display: none; 
-}
-.box5 {
-  display: none;
-}
-.box6 {
-  display: none;
-}  */ 
