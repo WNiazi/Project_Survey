@@ -7,7 +7,7 @@ $(document).ready(function() {
     const number4 = parseInt($("#question4").val()); 
     const number5 = parseInt($("#question5").val()); 
     
-    const result = (number1 + number2 + number3 + number4 +number5);
+    const result = (number1 + number2 + number3 + number4 + number5);
    
       if (result <=6) {
         let totalVal="Ruby";
